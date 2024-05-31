@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flowers</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'>
+<!--    <link type="text/css" rel="stylesheet" href="stylesheets/style.css"/>  this will put a mask in the window -->
+    <style type="text/css">
+      circle.node {
+        cursor: pointer;
+        stroke: #000;
+        stroke-width: .5px;
+      }
+      
+      circle.node.directory {
+        stroke: #9ecae1;
+        stroke-width: 1px;
+      }
+      
+      circle.node.collapsed {
+        stroke: #555;
+      }
+      
+      .nodetext {
+        fill: #252929;
+        font-weight: bold;
+        text-shadow: 0 0 0.2em white;
+      }
+      
+      line.link {
+        fill: none;
+        stroke: #9ecae1;
+        stroke-width: 1.5px;
+      }
+      .my-legend .legend-title {
+        text-bottom: left;
+        margin-top: 0px;
+        font-weight: bold;
+        font-size: 90%;
+        }
+      .my-legend .legend-scale ul {
+        margin: 0;
+        padding: 0;
+        float: left;
+        list-style: none;
+        }
+      .my-legend .legend-scale ul li {
+        display: block;
+        float: left;
+        width: 120px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-size: 80%;
+        list-style: none;
+        }
+      .my-legend ul.legend-labels li span {
+        display: block;
+        float: left;
+        height: 20px;
+        width: 20px;
+        }
+      .my-legend .legend-source {
+        font-size: 70%;
+        color: #999;
+        clear: both;
+        }
+      .my-legend a {
+        color: #777;
+        }
+
+      p.indent {
+         padding-left: 100.8em 
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="container">
+        <h3>ESV annotation and abundance</h3>
+        <h6>This interactive graphic vizualizes the organism diversity by annotation and by abundance. Taxons are represented by coloured nodes (see legend). The size of the distal node (i.e. species or genus taxon) is proportional to the total number of unique contigs. The unknown node represent all contigs that failed to be annotated with any database.</h6>
+            <div class='my-legend'>
+            <!--<div class='legend-title'>Legend</div>-->
+            <div class='legend-scale'>
+              <ul class='legend-labels'>
+                <!--BEGINNING COLOR LEGEND-->
+                <li><span style='background:#A9AE8B;'></span><font size="0.5">Actinobacteria</font></li>
+                <li><span style='background:#ADEE37;'></span><font size="0.5">Arthropoda</font></li>
+                <li><span style='background:#BC9BBE;'></span><font size="0.5">Bacteria</font></li>
+                <li><span style='background:#E8E6A9;'></span><font size="0.5">Bacteroidetes</font></li>
+                <li><span style='background:#E7C473;'></span><font size="0.5">Chordata</font></li>
+                <li><span style='background:#E4D8DB;'></span><font size="0.5">Deferribacteres</font></li>
+                <li><span style='background:#DD80B0;'></span><font size="0.5">Firmicutes</font></li>
+                <li><span style='background:#6636DC;'></span><font size="0.5">Hofneiviricota</font></li>
+                <li><span style='background:#ED9093;'></span><font size="0.5">Nematoda</font></li>
+                <li><span style='background:#E25CDE;'></span><font size="0.5">Phixviricota</font></li>
+                <li><span style='background:#DCB134;'></span><font size="0.5">Proteobacteria</font></li>
+                <li><span style='background:#4BE6C5;'></span><font size="0.5">Pseudomonadota</font></li>
+                <li><span style='background:#A0DCCB;'></span><font size="0.5">Spirochaetes</font></li>
+                <li><span style='background:#9F8A42;'></span><font size="0.5">Streptophyta</font></li>
+                <li><span style='background:#cdcdcc;'></span><font size="0.5">Unknown</font></li>
+                <li><span style='background:#D834EA;'></span><font size="0.5">Uroviricota</font></li>
+                <li><span style='background:#A5BBD8;'></span><font size="0.5">Verrucomicrobia</font></li>
+                <li><span style='background:#DCE67F;'></span><font size="0.5">Viruses</font></li>
+                <!--END COLOR LEGEND-->
+              </ul>
+            </div>
+
+
+        <form class="form-inline">
+          <fieldset>
+            <p class="indent"></p>
+          <label>Focus:</label>
+          <select id="project">
+            <option value="data/All.json">All ESVs</option>
+          </select>
+          </fieldset>
+        </form>
+        <div id="visualization"></div>
+
+        <fieldset>
+          <div id="data/All.json"></div>
+        </fieldset>
+
+
+    </div>
+    <script type="text/javascript" src="javascripts/d3/d3.js"></script>
+    <script type="text/javascript" src="javascripts/d3/d3.geom.js"></script>
+    <script type="text/javascript" src="javascripts/d3/d3.layout.js"></script>
+    <script type="text/javascript" src="javascripts/CodeFlower.js"></script>
+    <script type="text/javascript" src="javascripts/dataConverter.js"></script>
+    <script type="text/javascript">
+      var currentCodeFlower;
+      var createCodeFlower = function(json) {
+        // update the data/Fish.json textarea
+        document.getElementById('data/All.json').value = JSON.stringify(json);
+        // remove previous flower to save memory
+        if (currentCodeFlower) currentCodeFlower.cleanup();
+        // adapt layout size to the total number of elements
+        var total = countElements(json);
+        w = parseInt(Math.sqrt(total) * 35, 10);
+        h = parseInt(Math.sqrt(total) * 35, 10);
+        // create a new CodeFlower
+        currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
+      };
+
+      d3.json('data/All.json', createCodeFlower);
+
+      document.getElementById('project').addEventListener('change', function() {
+        d3.json(this.value, createCodeFlower);
+      });
+      document.getElementById('jsonInput').addEventListener('submit', function(e) {
+        e.preventDefault();
+        document.getElementById('visualization').scrollIntoView();
+        var json = JSON.parse(document.getElementById('data/All.json').value);
+        currentCodeFlower.update(json);
+      });
+      document.getElementById('jsonConverter').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var origin = this.children[0].children[0].value;
+        var data = this.children[0].children[1].value;
+        var json = convertToJSON(data, origin);
+        document.getElementById('visualization').scrollIntoView();
+        createCodeFlower(json);
+      });
+    </script>
+  </body>
+</html>
