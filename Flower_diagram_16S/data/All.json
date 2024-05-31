@@ -1,0 +1,845 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#8b5221",
+                                  "name": "Adlercreutzia_equolifaciens",
+                                  "size": 2887
+                                }
+                              ],
+                              "color": "#8b5221",
+                              "name": "Adlercreutzia",
+                              "size": 2887
+                            }
+                          ],
+                          "color": "#8b5221",
+                          "name": "Eggerthellaceae",
+                          "size": 2887
+                        }
+                      ],
+                      "color": "#8b5221",
+                      "name": "Eggerthellales",
+                      "size": 2887
+                    }
+                  ],
+                  "color": "#8b5221",
+                  "name": "Eggerthellales",
+                  "size": 2887
+                }
+              ],
+              "color": "#8b5221",
+              "name": "Actinobacteria",
+              "size": 2887
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#9dd089",
+                                  "name": "Parabacteroides_goldsteinii",
+                                  "size": 1052055
+                                }
+                              ],
+                              "color": "#9dd089",
+                              "name": "Parabacteroides",
+                              "size": 1052055
+                            }
+                          ],
+                          "color": "#9dd089",
+                          "name": "Tannerellaceae",
+                          "size": 1052055
+                        }
+                      ],
+                      "color": "#9dd089",
+                      "name": "Bacteroidales",
+                      "size": 1052055
+                    }
+                  ],
+                  "color": "#9dd089",
+                  "name": "Bacteroidales",
+                  "size": 1052055
+                }
+              ],
+              "color": "#9dd089",
+              "name": "Bacteroidetes",
+              "size": 1052055
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#91268f",
+                                  "name": "Mucispirillum_schaedleri",
+                                  "size": 25795
+                                }
+                              ],
+                              "color": "#91268f",
+                              "name": "Mucispirillum",
+                              "size": 25795
+                            }
+                          ],
+                          "color": "#91268f",
+                          "name": "Deferribacteraceae",
+                          "size": 25795
+                        }
+                      ],
+                      "color": "#91268f",
+                      "name": "Deferribacterales",
+                      "size": 25795
+                    }
+                  ],
+                  "color": "#91268f",
+                  "name": "Deferribacterales",
+                  "size": 25795
+                }
+              ],
+              "color": "#91268f",
+              "name": "Deferribacteres",
+              "size": 25795
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Mammaliicoccus_MS",
+                                  "size": 497
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Mammaliicoccus",
+                              "size": 497
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Staphylococcaceae",
+                          "size": 497
+                        }
+                      ],
+                      "color": "#aa4465",
+                      "name": "Bacillales",
+                      "size": 497
+                    }
+                  ],
+                  "color": "#aa4465",
+                  "name": "Bacillales",
+                  "size": 497
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Coprobacillus_cateniformis",
+                                  "size": 12452
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Coprobacillus",
+                              "size": 12452
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Coprobacillaceae",
+                          "size": 12452
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Erysipelatoclostridium_cocleatum",
+                                  "size": 69090
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Erysipelatoclostridium_innocuum",
+                                  "size": 17086
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Erysipelatoclostridium_saccharogumia",
+                                  "size": 248
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Erysipelatoclostridium",
+                              "size": 86424
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Massilimicrobiota",
+                                  "size": 464
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Massilimicrobiota",
+                              "size": 464
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Erysipelotrichaceae",
+                          "size": 86888
+                        }
+                      ],
+                      "color": "#aa4465",
+                      "name": "Erysipelotrichales",
+                      "size": 99340
+                    }
+                  ],
+                  "color": "#aa4465",
+                  "name": "Erysipelotrichales",
+                  "size": 99340
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Christensenellaceae",
+                                  "size": 290
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Christensenellaceae",
+                              "size": 290
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Christensenellaceae",
+                          "size": 290
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Clostridiaceae",
+                                  "size": 56309
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Clostridiaceae",
+                              "size": 56309
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Clostridium",
+                                  "size": 32614
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Clostridium_scindens",
+                                  "size": 2656
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Clostridium_symbiosum",
+                                  "size": 23108
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Clostridium",
+                              "size": 58378
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Hungatella_xylanolytica",
+                                  "size": 23688
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Hungatella",
+                              "size": 23688
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Clostridiaceae",
+                          "size": 138375
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Intestinimonas_butyriciproducens",
+                                  "size": 4467
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Intestinimonas",
+                              "size": 4467
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Eubacteriales",
+                          "size": 4467
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Acetatifactor",
+                                  "size": 7282
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Acetatifactor",
+                              "size": 7282
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Anaerostipes_caccae",
+                                  "size": 451
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Anaerostipes",
+                              "size": 451
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Anaerotignum",
+                                  "size": 6174
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Anaerotignum",
+                              "size": 6174
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Blautia_MS",
+                                  "size": 10347
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Blautia",
+                              "size": 10347
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Eisenbergiella",
+                                  "size": 18653
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Eisenbergiella_massiliensis",
+                                  "size": 8044
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Eisenbergiella",
+                              "size": 26697
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Enterocloster_aldenensis",
+                                  "size": 10859
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Enterocloster_clostridioformis",
+                                  "size": 1395
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Enterocloster_MS",
+                                  "size": 78267
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Enterocloster",
+                              "size": 90521
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Extibacter_muris",
+                                  "size": 727
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Extibacter",
+                              "size": 727
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Lachnospiraceae",
+                                  "size": 158478
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Lachnospiraceae",
+                              "size": 158478
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Marvinbryantia",
+                                  "size": 3007
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Marvinbryantia",
+                              "size": 3007
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Lachnospiraceae",
+                          "size": 303684
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Anaerotruncus",
+                                  "size": 12391
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Anaerotruncus_colihominis",
+                                  "size": 8085
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Anaerotruncus",
+                              "size": 20476
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Dysosmobacter_welbionis",
+                                  "size": 579
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Dysosmobacter",
+                              "size": 579
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Flavonifractor_plautii",
+                                  "size": 13221
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Flavonifractor",
+                              "size": 13221
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Oscillibacter",
+                                  "size": 8141
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Oscillibacter_valericigenes",
+                                  "size": 1232
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Oscillibacter",
+                              "size": 9373
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Oscillospiraceae",
+                                  "size": 1723
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Oscillospiraceae",
+                              "size": 1723
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Oscillospiraceae",
+                          "size": 45372
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Clostridioides_difficile",
+                                  "size": 23629
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Clostridioides",
+                              "size": 23629
+                            },
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Romboutsia_ilealis",
+                                  "size": 297
+                                },
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Romboutsia_timonensis",
+                                  "size": 208
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Romboutsia",
+                              "size": 505
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Peptostreptococcaceae",
+                          "size": 24134
+                        }
+                      ],
+                      "color": "#aa4465",
+                      "name": "Eubacteriales",
+                      "size": 516322
+                    }
+                  ],
+                  "color": "#aa4465",
+                  "name": "Eubacteriales",
+                  "size": 516322
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Enterococcus_MS",
+                                  "size": 738
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Enterococcus",
+                              "size": 738
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Enterococcaceae",
+                          "size": 738
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Ligilactobacillus_MS",
+                                  "size": 29003
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Ligilactobacillus",
+                              "size": 29003
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Lactobacillaceae",
+                          "size": 29003
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#aa4465",
+                                  "name": "Lactococcus_MS",
+                                  "size": 4347
+                                }
+                              ],
+                              "color": "#aa4465",
+                              "name": "Lactococcus",
+                              "size": 4347
+                            }
+                          ],
+                          "color": "#aa4465",
+                          "name": "Streptococcaceae",
+                          "size": 4347
+                        }
+                      ],
+                      "color": "#aa4465",
+                      "name": "Lactobacillales",
+                      "size": 34088
+                    }
+                  ],
+                  "color": "#aa4465",
+                  "name": "Lactobacillales",
+                  "size": 34088
+                }
+              ],
+              "color": "#aa4465",
+              "name": "Firmicutes",
+              "size": 650247
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#f7a49e",
+                                  "name": "Delftia_MS",
+                                  "size": 241
+                                }
+                              ],
+                              "color": "#f7a49e",
+                              "name": "Delftia",
+                              "size": 241
+                            }
+                          ],
+                          "color": "#f7a49e",
+                          "name": "Comamonadaceae",
+                          "size": 241
+                        }
+                      ],
+                      "color": "#f7a49e",
+                      "name": "Burkholderiales",
+                      "size": 241
+                    }
+                  ],
+                  "color": "#f7a49e",
+                  "name": "Burkholderiales",
+                  "size": 241
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#f7a49e",
+                                  "name": "Enterobacteriaceae_MS",
+                                  "size": 5152
+                                }
+                              ],
+                              "color": "#f7a49e",
+                              "name": "Enterobacteriaceae_MS",
+                              "size": 5152
+                            }
+                          ],
+                          "color": "#f7a49e",
+                          "name": "Enterobacteriaceae",
+                          "size": 5152
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#f7a49e",
+                                  "name": "Providencia_MS",
+                                  "size": 1098
+                                }
+                              ],
+                              "color": "#f7a49e",
+                              "name": "Providencia",
+                              "size": 1098
+                            }
+                          ],
+                          "color": "#f7a49e",
+                          "name": "Morganellaceae",
+                          "size": 1098
+                        }
+                      ],
+                      "color": "#f7a49e",
+                      "name": "Enterobacterales",
+                      "size": 6250
+                    }
+                  ],
+                  "color": "#f7a49e",
+                  "name": "Enterobacterales",
+                  "size": 6250
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#f7a49e",
+                                  "name": "Acinetobacter_MS",
+                                  "size": 372
+                                }
+                              ],
+                              "color": "#f7a49e",
+                              "name": "Acinetobacter",
+                              "size": 372
+                            }
+                          ],
+                          "color": "#f7a49e",
+                          "name": "Moraxellaceae",
+                          "size": 372
+                        }
+                      ],
+                      "color": "#f7a49e",
+                      "name": "Moraxellales",
+                      "size": 372
+                    }
+                  ],
+                  "color": "#f7a49e",
+                  "name": "Moraxellales",
+                  "size": 372
+                }
+              ],
+              "color": "#f7a49e",
+              "name": "Proteobacteria",
+              "size": 6863
+            }
+          ],
+          "color": "#cdcdcc",
+          "name": "Bacteria",
+          "size": 1737847
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "color": "#274c77",
+                                  "name": "Unknown",
+                                  "size": 221875
+                                }
+                              ],
+                              "color": "#274c77",
+                              "name": "Unknown",
+                              "size": 221875
+                            }
+                          ],
+                          "color": "#274c77",
+                          "name": "Unknown",
+                          "size": 221875
+                        }
+                      ],
+                      "color": "#274c77",
+                      "name": "Unknown",
+                      "size": 221875
+                    }
+                  ],
+                  "color": "#274c77",
+                  "name": "Unknown",
+                  "size": 221875
+                }
+              ],
+              "color": "#274c77",
+              "name": "Unknown",
+              "size": 221875
+            }
+          ],
+          "color": "#cdcdcc",
+          "name": "Unknown",
+          "size": 221875
+        }
+      ],
+      "color": "#cdcdcc",
+      "name": "All",
+      "size": 132
+    }
+  ],
+  "name": "All",
+  "size": 46
+}
