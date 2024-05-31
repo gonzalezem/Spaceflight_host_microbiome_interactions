@@ -3,14 +3,17 @@
 <br>
 <h4>Figure 2C. 16S diversity</h4>
 Flower diagram illustrating amplicon phyla diversity. The size of the distal node (i.e. lowest taxonomic level for an ESV) is proportional to the total raw abundance.
-<h3><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/Flower_diagram_16S/Flowers.html">16S Flower diagram</a></h3>
+<h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/Flower_diagram_16S/Flowers.html">16S Flower diagram</a></h5>
+<br>
 <h4>Figure 2I. WMS diversity</h4>
 Flower diagram illustrating amplicon phyla diversity. 
 <h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/Flower_diagram/Flowers.html">WMS Flower diagram</a></h5>
+<br>
 <h4>Figure 3G. LAR UMAP</h4>
 UMAP diagram used to visualise contig clustering of inferred species
-<h3><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/WMS_UMAP_interactive/LAR_UMAP.html">LAR UMAP</a></h3>
+<h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/WMS_UMAP_interactive/LAR_UMAP.html">LAR UMAP</a></h5>
+<br>
 <h4>Figure 3H. ISS UMAP</h4>
 UMAP diagram used to visualise contig clustering of inferred species
-<h3><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/WMS_UMAP_interactive/ISS_UMAP.html">ISS UMAP</a></h3>
+<h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/WMS_UMAP_interactive/ISS_UMAP.html">ISS UMAP</a></h5>
 <br>
