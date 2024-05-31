@@ -17,3 +17,11 @@ UMAP diagram used to visualise contig clustering of inferred species
 UMAP diagram used to visualise contig clustering of inferred species
 <h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/WMS_UMAP_interactive/ISS_UMAP.html">ISS UMAP</a></h5>
 <br>
+<h4>Supplementary figure 4. LAR MA plot</h4>
+Differential abundance analysis (WMS) MA plots per species in GC_LAR vs FLT_LAR
+<h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/interactive_MAplot/LAR_interactive_MAPlot.html">LAR MA plot</a></h5>
+<br>
+<h4>Supplementary figure 5. ISS MA plot</h4>
+Differential abundance analysis (WMS) MA plots per species in GC_ISS vs FLT_ISS
+<h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/interactive_MAplot/ISS_interactive_MAPlot.html">ISS MA plot</a></h5>
+
