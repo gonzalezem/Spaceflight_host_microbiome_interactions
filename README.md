@@ -25,7 +25,7 @@ Differential abundance analysis (WMS) MA plots per species in GC_LAR vs FLT_LAR
 Differential abundance analysis (WMS) MA plots per species in GC_ISS vs FLT_ISS
 <h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/interactive_MAplot/ISS_interactive_MAPlot.html">ISS MA plot</a></h5>
 <br>
-<h4>Supplementary figure 5. ISS MA plot</h4>
-Differential abundance analysis (WMS) MA plots per species in GC_ISS vs FLT_ISS
-<h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/MAGs_2/Chord_MAGS.html">ISS MA plot</a></h5>
+<h4>Supplementary figure X. MAGs vs Contig Annotation</h4>
+Comparing Annotation from bins of contigs and contigs species annotation.
+<h5><a target="_blank" href="http://htmlpreview.github.io/?https://github.com/gonzalezem/Spaceflight_host_microbiome_interactions/blob/master/MAGs_2/Chord_MAGS.html">Chord Diagram</a></h5>
 
